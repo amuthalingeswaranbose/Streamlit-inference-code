@@ -13,12 +13,12 @@ from transformers import AutoModelForImageClassification, AutoFeatureExtractor
 # Classes
 class Predict:
     def __init__(self, model_path="./results"):
-        tb_path = 'C:\Users\Muthukumar\Downloads\Transformers-Inference\blast\'
-        tbs_path = 'C:\Users\Muthukumar\Downloads\Transformers-Inference\brown_spot\'
-        tdh_path = 'C:\Users\Muthukumar\Downloads\Transformers-Inference\dead_heart\'
-        tfs_path = 'C:\Users\Muthukumar\Downloads\Transformers-Inference\false_smut\'
-        tlf_path = 'C:\Users\Muthukumar\Downloads\Transformers-Inference\leaf_folder\'
-        twe_path = 'C:\Users\Muthukumar\Downloads\Transformers-Inference\white_ear\'
+        tb_path = 'C:\Users\model_path\'
+        tbs_path = 'C:\Users\model_path\'
+        tdh_path = 'C:\Users\model_path\'
+        tfs_path = 'C:\Users\model_path\'
+        tlf_path = 'C:\Users\model_path\'
+        twe_path = 'C:\Users\model_path\'
         
         
         self.feature_extractor = AutoFeatureExtractor.from_pretrained(model_path)
